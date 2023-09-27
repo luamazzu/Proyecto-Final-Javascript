@@ -1,0 +1,10 @@
+[
+    {"nombre": "BURRITOS", "descripcion": "Un par de burritos", "precio":"10$" },
+    {"nombre": "EMPANADAS ARGENTINAS", "descripcion": "Una docena de empanadas", "precio":"12$" },
+    {"nombre": "AREPAS", "descripcion": "Oferta especial: 3x2", "precio":"7$" },
+    {"nombre": "FIDEOS CON SALSA", "descripcion": "Un exelente plato para el medio día!", "precio":"5$" },
+    {"nombre": "FIDEOS CON PESTO", "descripcion": "Otro exelente plato para pasar al frente!", "precio":"5$" },
+    {"nombre": "HAMBURGUESA ESPECIAL", "descripcion": "La hamburguesa especial de la casa, carne de lujo y panes caseros!", "precio":"15$" },
+    {"nombre": "ARROZ CON ENSALADA", "descripcion": "Un exelente plato para cenar bien y liviano", "precio":"5$" },
+    {"nombre": "ENSALADA", "descripcion": "Plato recomendado para una cena muy liviana", "precio":"3$" }
+]

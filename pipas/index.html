@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>eCOMMIDAS</title>
+</head>
+
+<body>
+  </header>
+  <header class="container-fluid bg-warning">
+    <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Inicio</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Productos</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Carrito</button>
+      </li>
+    </ul>
+  </header>
+  <main>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+        <div class="container py-3">
+          <div class="row">
+            <div class="col-12 text-center justify content-center">
+              <h1>PIPA'S RESTAURANT</h1> 
+              <p>Sitio donde podrás comprar tu comida por internet de una forma facil, segura y rápida.
+              </p>
+              <p>Tenemos un menú con excelentes precios y buena disposición horaria.
+              </p>
+            </div>
+            <div class="row">
+              <div class="col-12 text-center">
+                <img src="./img/mercado.png" alt="logo de supermercado" class="img-fluid">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 text-center justify content-center">
+              <p>Gracias por visitar nuestra página, esperamos contar con vos en tu próxima compra!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+      <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+        <h2 class="h4 m-4 text-dark text-center">Productos</h2>
+       
+        <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">Burritos</h5>
+              <img src="./img/burrito.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-white-50 description">Un par de burritos, especiales para comer en un día frio!.</p>
+                <h5 class="text-primary">Precio: <span class="precio">$ 10</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button"> Añadir a Carrito </button>
+                </button>
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">Empanadas Argentinas</h5>
+              <img src="./img/empanadas.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-white-50 description">Una docena de empanadas, de la mejor calidad Argentina.</p>
+                <h5 class="text-primary">Precio: <span class="precio">$ 12</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">Arepas</h5>
+              <img src="./img/arepas.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-white-50 description">Oferta especial: 3x2. Una de las comidas mas recurridas en
+                  Venezuela, muy sabrosa!</p>
+                <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">Fideos con Salsa</h5>
+              <img src="./img/fideos-tuco.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-white-50 description">Un exelente plato para el medio día!.</p>
+                <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">Fideos con pesto</h5>
+              <img src="./img/fideos-pesto.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-white-50 description">Otro exelente plato para pasar al frente!.</p>
+                <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">Hamburguesa Especial</h5>
+              <img src="./img/hamburguesa.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-white-50 description">La hamburguesa especial de la casa, carne de lujo y panes
+                  caseros!.</p>
+                <h5 class="text-primary">Precio: <span class="precio">$ 10</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">Arroz con ensalada</h5>
+              <img src="./img/arroz-ensalada.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-white-50 description">Un exelente plato para cenar bien y liviano.</p>
+                <h5 class="text-primary">Precio: <span class="precio">$ 10</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">Ensalada</h5>
+              <img src="./img/ensalada-vegetal.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-white-50 description">Plato recomendado para una cena muy liviana.</p>
+                <h5 class="text-primary">Precio: <span class="precio">$ 3</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <!--  -->
+      <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+      <h2 class="h4 m-4 text-dark text-center">Carrito</h2>
+      <br />
+      <table class="table table-light table-hover">
+        <thead>
+          <tr class="text-dark">
+            <th scope="col">#</th>
+            <th scope="col">Productos</th>
+            <th scope="col">Precio</th>
+            <th scope="col">Cantidad</th>
+          </tr>
+        </thead>       
+      <tbody class="tbody"></tbody>
+        </table>
+        <br /><br />
+        <div class="row mx-4">
+          <div class="col">
+            <h3 class="itemCartTotal text-dark">Total: 0</h3>
+          </div>
+          <div class="col d-flex justify-content-end">
+            <button class="btn btn-success">COMPRAR</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="container-fluid">
+    <section class="row">
+      <div class="col-12 py-2 text-center">
+        </div>
+    </section>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+  <!-- Archivo js -->
+  <script src="./scripts.js"></script>
+  <!-- ToastifyJS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+</html>
